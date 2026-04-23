@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MasterCode Pro — Do Zero ao Avançado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header" id="inicio">
+    <div class="header__inner container">
+      <a href="#inicio" class="header__logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">aster<em>Code</em></span>
+      </a>
+
+      <nav class="header__nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#modulos" class="nav__link">Conteúdo</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#oferta" class="btn btn--gold header__cta">Comprar Agora</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="hero__badge">🚀 Mais de 12.000 alunos formados</span>
+        <h1 class="hero__headline">
+          Domine o <em>Desenvolvimento</em><br />do Zero ao Avançado
+        </h1>
+        <p class="hero__sub">
+          O método completo para você sair do absoluto zero e construir aplicações reais que impressionam clientes, recrutadores e o mercado.
+        </p>
+        <div class="hero__actions">
+          <a href="#oferta" class="btn btn--gold btn--lg">Quero começar agora →</a>
+          <a href="#modulos" class="btn btn--ghost">Ver o conteúdo</a>
+        </div>
+        <div class="hero__trust">
+          <div class="trust-item"><span class="trust-icon">⭐</span> 4.9 / 5.0</div>
+          <div class="trust-item"><span class="trust-icon">🎓</span> 180h de conteúdo</div>
+          <div class="trust-item"><span class="trust-icon">🔒</span> Garantia de 7 dias</div>
+        </div>
+      </div>
+
+      <div class="hero__mockup reveal reveal--right">
+        <div class="mockup-card">
+          <div class="mockup-card__header">
+            <span class="dot dot--red"></span>
+            <span class="dot dot--yellow"></span>
+            <span class="dot dot--green"></span>
+            <span class="mockup-card__title">MasterCode Pro</span>
+          </div>
+          <div class="mockup-card__body">
+            <div class="mockup-progress">
+              <div class="progress-label"><span>Módulo 1 — Fundamentos</span><span>100%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+            </div>
+            <div class="mockup-progress">
+              <div class="progress-label"><span>Módulo 2 — JavaScript</span><span>78%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:78%"></div></div>
+            </div>
+            <div class="mockup-progress">
+              <div class="progress-label"><span>Módulo 3 — React</span><span>40%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:40%"></div></div>
+            </div>
+            <div class="mockup-progress">
+              <div class="progress-label"><span>Módulo 4 — Node.js</span><span>0%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width:0%"></div></div>
+            </div>
+            <div class="mockup-stat-row">
+              <div class="mockup-stat"><div class="mockup-stat__num">24</div><div class="mockup-stat__label">Aulas feitas</div></div>
+              <div class="mockup-stat"><div class="mockup-stat__num">3</div><div class="mockup-stat__label">Projetos</div></div>
+              <div class="mockup-stat"><div class="mockup-stat__num">🔥</div><div class="mockup-stat__label">Streak 7d</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">↓</div>
+  </section>
+
+  <section class="benefits section" id="beneficios">
+    <div class="container">
+      <div class="section-label reveal">O que você vai ganhar</div>
+      <h2 class="section-title reveal">Tudo que você precisa para <em>transformar</em> sua carreira</h2>
+      <div class="benefits__grid">
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">💻</div>
+          <h3 class="benefit-card__title">Projetos Reais</h3>
+          <p class="benefit-card__text">Construa 6 projetos completos para o seu portfólio e impressione qualquer recrutador.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🎯</div>
+          <h3 class="benefit-card__title">Método Direto ao Ponto</h3>
+          <p class="benefit-card__text">Sem enrolação. Cada aula é cirúrgica, objetiva e focada no que o mercado realmente cobra.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🤝</div>
+          <h3 class="benefit-card__title">Comunidade Exclusiva</h3>
+          <p class="benefit-card__text">Acesso vitalício ao grupo privado com alunos e mentores ativos todos os dias.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">♾️</div>
+          <h3 class="benefit-card__title">Acesso Vitalício</h3>
+          <p class="benefit-card__text">Pague uma vez e acesse para sempre, incluindo todas as atualizações futuras do curso.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🏆</div>
+          <h3 class="benefit-card__title">Certificado Reconhecido</h3>
+          <p class="benefit-card__text">Certificado digital validado para o LinkedIn e reconhecido por mais de 200 empresas parceiras.</p>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">🧑‍🏫</div>
+          <h3 class="benefit-card__title">Suporte com Especialistas</h3>
+          <p class="benefit-card__text">Tire dúvidas diretamente com instrutores que trabalham no mercado há mais de 10 anos.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="sobre">
+    <div class="container about__inner">
+      <div class="about__text reveal">
+        <div class="section-label">Sobre o curso</div>
+        <h2 class="section-title">O treinamento mais <em>completo</em> do Brasil</h2>
+        <p>O MasterCode Pro foi desenvolvido ao longo de 3 anos por uma equipe de desenvolvedores sênior que trabalharam em empresas como Google, Nubank e Mercado Livre. Cada módulo foi desenhado para simular o ambiente real de trabalho.</p>
+        <p>Você não vai apenas assistir aulas — você vai <strong>construir, errar e corrigir</strong> como faz um desenvolvedor de verdade.</p>
+        <ul class="about__list">
+          <li>✅ 180+ horas de vídeo em HD</li>
+          <li>✅ 6 projetos completos guiados</li>
+          <li>✅ Material de apoio em PDF</li>
+          <li>✅ Exercícios e desafios por módulo</li>
+          <li>✅ Lives mensais com o instrutor</li>
+          <li>✅ Grupo exclusivo no Discord</li>
+          <li>✅ Atualizações incluídas sem custo extra</li>
+          <li>✅ Certificado de conclusão</li>
+        </ul>
+      </div>
+      <div class="about__instructor reveal reveal--right">
+        <div class="instructor-card">
+          <div class="instructor-card__avatar">
+            <div class="avatar-placeholder">RB</div>
+          </div>
+          <div class="instructor-card__info">
+            <h4>Rafael Borges</h4>
+            <span>Instrutor Principal</span>
+          </div>
+          <p class="instructor-card__bio">10+ anos de mercado. Ex-engenheiro sênior no Nubank. Formou mais de 12.000 alunos em desenvolvimento web.</p>
+          <div class="instructor-card__stats">
+            <div><strong>12k+</strong><span>Alunos</span></div>
+            <div><strong>10+</strong><span>Anos exp.</span></div>
+            <div><strong>4.9</strong><span>Nota</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="modules section" id="modulos">
+    <div class="container">
+      <div class="section-label reveal">Conteúdo do curso</div>
+      <h2 class="section-title reveal">8 módulos que vão te <em>transformar</em></h2>
+      <div class="modules__grid">
+
+        <div class="module-card reveal">
+          <div class="module-card__number">01</div>
+          <div class="module-card__content">
+            <h3>Fundamentos da Web</h3>
+            <p>HTML5 semântico, estrutura de documentos, acessibilidade e boas práticas desde o início.</p>
+            <span class="module-tag">18 aulas · 4h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">02</div>
+          <div class="module-card__content">
+            <h3>CSS Moderno & Design</h3>
+            <p>Flexbox, Grid, variáveis CSS, animações e o poder do design responsivo profissional.</p>
+            <span class="module-tag">24 aulas · 6h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">03</div>
+          <div class="module-card__content">
+            <h3>JavaScript do Zero</h3>
+            <p>Lógica, manipulação do DOM, eventos, fetch API e ES6+ com projetos práticos.</p>
+            <span class="module-tag">32 aulas · 9h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">04</div>
+          <div class="module-card__content">
+            <h3>React na Prática</h3>
+            <p>Componentes, hooks, context API, roteamento e consumo de APIs externas.</p>
+            <span class="module-tag">28 aulas · 8h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">05</div>
+          <div class="module-card__content">
+            <h3>Node.js & Backend</h3>
+            <p>Servidor, rotas, autenticação JWT, middlewares e integração com banco de dados.</p>
+            <span class="module-tag">26 aulas · 7h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">06</div>
+          <div class="module-card__content">
+            <h3>Banco de Dados</h3>
+            <p>PostgreSQL, modelagem de dados, queries avançadas e integração com a aplicação.</p>
+            <span class="module-tag">20 aulas · 5h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">07</div>
+          <div class="module-card__content">
+            <h3>Deploy & DevOps</h3>
+            <p>Git, CI/CD, Docker, deploy na AWS e boas práticas de infraestrutura moderna.</p>
+            <span class="module-tag">18 aulas · 5h</span>
+          </div>
+        </div>
+
+        <div class="module-card reveal">
+          <div class="module-card__number">08</div>
+          <div class="module-card__content">
+            <h3>Carreira & Freelance</h3>
+            <p>Como montar seu portfólio, conseguir os primeiros clientes e negociar seu salário.</p>
+            <span class="module-tag">14 aulas · 4h</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials section" id="depoimentos">
+    <div class="container">
+      <div class="section-label reveal">Depoimentos</div>
+      <h2 class="section-title reveal">O que os alunos <em>dizem</em></h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Em 4 meses consegui meu primeiro emprego como dev júnior ganhando R$ 3.800. Nunca imaginei que sairia do zero tão rápido. O método do Rafael é diferente de tudo que já vi."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AM</div>
+            <div>
+              <strong>Ana Martins</strong>
+              <span>Desenvolvedora Júnior · SP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Trabalhava como caixa de supermercado. Depois do curso, estou freelancer ganhando R$ 6.000/mês. A comunidade e o suporte fazem toda a diferença. Vale cada centavo."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">LC</div>
+            <div>
+              <strong>Lucas Carvalho</strong>
+              <span>Freelancer Full Stack · MG</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Já tinha tentado outros cursos e desistido. O MasterCode Pro foi o primeiro que me fez entender de verdade. As aulas são claras, os projetos são reais e o professor é incrível."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JS</div>
+            <div>
+              <strong>Juliana Santos</strong>
+              <span>Dev Front-End · RJ</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="offer section" id="oferta">
+    <div class="container offer__inner">
+      <div class="offer__left reveal">
+        <div class="section-label">Oferta especial</div>
+        <h2 class="section-title">Invista uma vez,<br /><em>lucre para sempre</em></h2>
+        <p>Tudo que você precisa para se tornar um desenvolvedor completo — em um único investimento acessível.</p>
+        <ul class="offer__includes">
+          <li>✅ 180h de conteúdo em vídeo</li>
+          <li>✅ 6 projetos reais para portfólio</li>
+          <li>✅ Comunidade exclusiva no Discord</li>
+          <li>✅ Certificado de conclusão</li>
+          <li>✅ Suporte com especialistas</li>
+          <li>✅ Acesso vitalício + atualizações</li>
+        </ul>
+      </div>
+      <div class="offer__card reveal reveal--right">
+        <div class="offer__old-price">De <s>R$ 1.497</s></div>
+        <div class="offer__price">
+          <span class="offer__price-label">Por apenas</span>
+          <span class="offer__price-value">R$ 497</span>
+          <span class="offer__price-sub">ou 12× de R$ 49,90</span>
+        </div>
+        <div class="offer__discount-badge">67% OFF</div>
+        <a href="#" class="btn btn--gold btn--lg btn--block">🔥 Garantir minha vaga agora</a>
+        <p class="offer__note">Pagamento 100% seguro · Acesso imediato</p>
+        <div class="offer__methods">
+          <span>💳 Cartão</span>
+          <span>🏦 PIX</span>
+          <span>📄 Boleto</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guarantee section" id="garantia">
+    <div class="container guarantee__inner reveal">
+      <div class="guarantee__icon">🛡️</div>
+      <div class="guarantee__text">
+        <h2>Garantia incondicional de <em>7 dias</em></h2>
+        <p>Se por qualquer motivo você não ficar 100% satisfeito nos primeiros 7 dias após a compra, basta nos enviar um e-mail e devolvemos cada centavo do seu investimento — sem perguntas, sem burocracia. Risco zero para você.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-label reveal">FAQ</div>
+      <h2 class="section-title reveal">Perguntas <em>frequentes</em></h2>
+      <div class="faq__list">
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Preciso ter conhecimento prévio em programação?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Não! O curso começa do absoluto zero. Não é necessário nenhum conhecimento anterior. Basta ter um computador e vontade de aprender.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Por quanto tempo terei acesso ao curso?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>O acesso é vitalício! Você paga uma única vez e acessa para sempre, incluindo todas as futuras atualizações do conteúdo sem nenhum custo adicional.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Posso acessar pelo celular ou tablet?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Sim! A plataforma é 100% responsiva e funciona perfeitamente em qualquer dispositivo: computador, tablet ou smartphone.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Como funciona a garantia de 7 dias?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Se em até 7 dias após a compra você não estiver satisfeito, basta enviar um e-mail para suporte@mastercodepro.com.br e realizamos o reembolso integral sem questionamentos.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            O certificado é reconhecido?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>O certificado é digital e validado para o LinkedIn. Além disso, temos parceria com mais de 200 empresas que reconhecem e valorizam nosso certificado em processos seletivos.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__question" aria-expanded="false">
+            Quais são as formas de pagamento?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Aceitamos cartão de crédito (em até 12×), PIX com 10% de desconto adicional e boleto bancário. O pagamento é processado por uma plataforma 100% segura.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="header__logo">
+          <span class="logo-mark">M</span>
+          <span class="logo-text">aster<em>Code</em></span>
+        </a>
+        <p>Transformando vidas através da programação desde 2019.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+          <a href="#" aria-label="LinkedIn">💼</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#modulos">Conteúdo</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#oferta">Comprar</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="mailto:suporte@mastercodepro.com.br">suporte@mastercodepro.com.br</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 MasterCode Pro. Todos os direitos reservados. CNPJ: 00.000.000/0001-00</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511999999999?text=Oi!%20Tenho%20interesse%20no%20MasterCode%20Pro" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
