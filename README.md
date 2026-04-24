@@ -91,7 +91,10 @@ O projeto foi desenvolvido para funcionar perfeitamente em:
 **Bruno Gonçalves**  
 💻 Desenvolvedor Web | Front-End 
 
-📲 Contato: techsupportbruno@gmail.com 
+📲 Contato: techsupportbruno@gmail.com
+  - Link:
+  - Fiverr: https://br.fiverr.com/s/NN9dePV
+  - 99Freelas: https://www.99freelas.com.br/user/bruno-techh
 
 ---
 
